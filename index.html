@@ -224,8 +224,10 @@
         }
 
         const currentCat = cats[currentIndex];
-        const showLikeOverlay = isDragging && dragOffset.x > 50;
-        const showDislikeOverlay = isDragging && dragOffset.x < -50;
+        {/* const showLikeOverlay = isDragging && dragOffset.x > 50;
+        const showDislikeOverlay = isDragging && dragOffset.x < -50; */}
+        const showLikeOverlay;
+        const showDislikeOverlay;
 
         return (
           <div className="min-h-screen bg-gradient-to-br from-purple-100 to-pink-100 flex flex-col items-center justify-center p-4">
@@ -315,3 +317,4 @@
     </script>
   </body>
 </html>
+
